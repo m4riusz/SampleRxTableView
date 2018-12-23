@@ -1,0 +1,15 @@
+name: SampleRxTableView
+options:
+ deploymentTarget: [iOS]
+targets:
+ SampleRxTableView:
+  type: application
+  platform: iOS
+  deploymentTarget: "10.0"
+  sources: [SampleRxTableView]
+  settings:
+   base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.msut
+  dependencies:
+   - carthage: Alamofire
+   - carthage: RxSwift
