@@ -13,3 +13,5 @@ targets:
   dependencies:
    - carthage: Alamofire
    - carthage: RxSwift
+   - carthage: RxCocoa
+   - carthage: SnapKit
